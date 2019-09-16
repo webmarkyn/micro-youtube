@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial;
+}
 /* Header start */
 nav {
     margin-bottom: 20px;
@@ -86,3 +90,138 @@ nav  .container {
 
 /* Header end */
 
+/* Main start */
+
+main {
+    padding: 0 5%;
+    display: flex;
+}
+
+.primary-video {
+    width: 75%;
+    margin-right: 15px;
+}
+
+.video-info {
+    margin-top: 15px;
+}
+
+.top-info {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.info-main h2 {
+    font-size: 20px;
+    font-weight: 400
+}
+
+.info-secondary {
+    margin-top: 10px;
+    display: flex;
+    color: #606060
+
+}
+
+.info-secondary p:first-child {
+    margin: 0px;
+}
+
+.info-secondary p:first-child::after {
+    content: '•';
+    margin-left: 5px;
+}
+
+.info-secondary>p {
+    margin: 0 5px;
+}
+
+
+
+.video-socials {
+    display: flex;
+    margin-left: auto;
+}
+
+.video-socials img {
+    width: 20px;
+    height: 20px;
+    opacity: .6;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+    
+}
+
+.rate p {
+    margin: 0 20px 0 5px;
+}
+
+.share {
+    display: flex;
+    cursor: pointer;
+}
+
+.share p {
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.bottom-info {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-info .author {
+    display: flex;
+    align-items: center
+}
+
+.author p {
+    margin-left: 6px;
+}
+
+.bottom-info .subscribe {
+    margin-left: auto;
+    height: 35px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background: #CC0000;
+    border: none;
+    color: #F9F9F9;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.suggested-video {
+    margin-top: 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+.suggested-video-thumbnail img {
+    width: 168px;
+    height: 94px;
+}
+
+.suggested-video-description {
+    margin-left: 10px;
+    color: #606060;
+}
+
+.suggested-video-description p {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.suggested-video-description .title {
+    font-weight: 600;
+    color: black
+}
+
+
+
+/* Main end */
