@@ -41,7 +41,7 @@ nav .container {
 .nav-searchbox .searchbox-input,
 .nav-searchbox .searchbox-submit {
   height: 100%;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
 }
 
 .nav-searchbox .searchbox-input {
@@ -59,6 +59,18 @@ nav .container {
 
 .nav-searchbox .searchbox-submit:hover {
   background: #f0f0f0;
+}
+
+.socials-button img {
+  border-radius: 50%;
+  height: 100%;
+  padding: 7px;
+}
+
+.video-socials img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.6;
 }
 
 .nav-searchbox .searchbox-submit img {
@@ -79,12 +91,6 @@ nav .container {
 
 .socials-button:last-child {
   margin-right: 0;
-}
-
-.socials-button img {
-  border-radius: 50%;
-  height: 100%;
-  padding: 7px;
 }
 
 .socials-button:hover img {
@@ -127,8 +133,16 @@ nav .container {
   color: #606060;
 }
 
+.info-secondary > p {
+  margin: 0 5px;
+}
+
+.author p {
+  margin-left: 6px;
+}
+
 .info-secondary p:first-child {
-  margin: 0px;
+  margin: 0;
 }
 
 .info-secondary p:first-child::after {
@@ -136,19 +150,9 @@ nav .container {
   margin-left: 5px;
 }
 
-.info-secondary > p {
-  margin: 0 5px;
-}
-
 .video-socials {
   display: flex;
   margin-left: auto;
-}
-
-.video-socials img {
-  width: 20px;
-  height: 20px;
-  opacity: 0.6;
 }
 
 .rate {
@@ -181,16 +185,12 @@ nav .container {
   align-items: center;
 }
 
-.author p {
-  margin-left: 6px;
-}
-
 .bottom-info .subscribe {
   margin-left: auto;
   height: 35px;
   padding: 10px 20px;
   text-transform: uppercase;
-  background: #cc0000;
+  background: #c00;
   border: none;
   color: #f9f9f9;
   font-weight: 600;
