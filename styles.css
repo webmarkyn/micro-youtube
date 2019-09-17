@@ -118,6 +118,11 @@ nav .container {
   flex-direction: column;
 }
 
+#main-vid iframe {
+  width: 100%;
+  height: 610px;
+}
+
 .video-info {
   margin-top: 15px;
 }
