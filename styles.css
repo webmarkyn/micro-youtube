@@ -38,7 +38,8 @@ nav .container {
   display: flex;
 }
 
-.nav-searchbox .searchbox-input, .nav-searchbox .searchbox-submit {
+.nav-searchbox .searchbox-input,
+.nav-searchbox .searchbox-submit {
   height: 100%;
   border: 1px solid #cccccc;
 }
@@ -83,7 +84,7 @@ nav .container {
 .socials-button img {
   border-radius: 50%;
   height: 100%;
-  padding: 7px
+  padding: 7px;
 }
 
 .socials-button:hover img {
@@ -112,18 +113,18 @@ nav .container {
 
 .top-info {
   padding-bottom: 10px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
 }
 
 .info-main h2 {
   font-size: 20px;
-  font-weight: 400
+  font-weight: 400;
 }
 
 .info-secondary {
   margin-top: 10px;
   display: flex;
-  color: #606060
+  color: #606060;
 }
 
 .info-secondary p:first-child {
@@ -131,11 +132,11 @@ nav .container {
 }
 
 .info-secondary p:first-child::after {
-  content: '•';
+  content: "•";
   margin-left: 5px;
 }
 
-.info-secondary>p {
+.info-secondary > p {
   margin: 0 5px;
 }
 
@@ -147,7 +148,7 @@ nav .container {
 .video-socials img {
   width: 20px;
   height: 20px;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .rate {
@@ -177,7 +178,7 @@ nav .container {
 
 .bottom-info .author {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .author p {
@@ -219,7 +220,7 @@ nav .container {
 
 .suggested-video-description .title {
   font-weight: 600;
-  color: black
+  color: black;
 }
 
 /* Main end */
